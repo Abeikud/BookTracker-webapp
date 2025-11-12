@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookTrack - Your Personal Library Manager</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-book-open"></i>
+                <span>BookTrack</span>
+            </div>
+            
+            <div class="nav-links" id="navLinks">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link active"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="view_books.php" class="nav-link"><i class="fas fa-book"></i> My Books</a></li>
+                    <li><a href="search.php" class="nav-link"><i class="fas fa-search"></i> Search</a></li>
+                    <li><a href="profile.php" class="nav-link"><i class="fas fa-user"></i> Profile</a></li>
+                    <li class="auth-buttons">
+                        <a href="login.php" class="btn btn-outline"><i class="fas fa-sign-in-alt"></i> Login</a>
+                        <a href="register.php" class="btn btn-primary"><i class="fas fa-user-plus"></i> Register</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="hero-container">
+        <!-- Rest of your index.html content remains the same -->
+        <section class="hero-content">
+            <h1>Organize Your Reading Journey</h1>
+            <p class="subtitle">Track, manage and discover books with your personal digital library</p>
+            <div class="cta-buttons">
+                <a href="register.php" class="btn btn-primary">Get Started</a>
+                <a href="#features" class="btn btn-outline">Learn More</a>
+            </div>
+        </section>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Books on shelf">
+        </div>
+    </main>
+
+    <!-- Rest of your sections remain the same -->
+    <section id="features" class="features-section">
+        <!-- Features content -->
+    </section>
+
+    <script src="nav.js"></script>
+</body>
+</html>
